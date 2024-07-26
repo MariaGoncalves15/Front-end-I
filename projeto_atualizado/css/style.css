@@ -1,0 +1,30 @@
+.A {
+    background-color:lightblue;
+    
+}
+h1 {
+    font-size:50px;
+    text-align: center;
+    font-style:oblique;
+
+}
+p {
+    font-style:italic;
+    text-align:center;
+    font-size: 30px;
+}
+
+#img_01 img {
+    width: 40%;
+    height: 40%;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid;
+    flex-direction: column;
+    display: block;
+    margin: auto;
+}
+
+body{
+    background-color: lightblue;
+}
