@@ -3,9 +3,10 @@
     
 }
 h1 {
-    font-size:50px;
+    font-size:40px;
     text-align: center;
     font-style:oblique;
+    margin: 10px;
 
 }
 
@@ -17,7 +18,8 @@ h2{
 p {
     font-style:italic;
     text-align:center;
-    font-size: 20px;
+    font-size: 25px;
+    
 }
 
 #img_01 img {
@@ -28,9 +30,46 @@ p {
     border: 3px solid;
     flex-direction: column;
     display: block;
-    margin: auto;
+    margin: 50px;;
 }
+
 
 body{
     background-color: lightblue;
+}
+
+.menu{
+    list-style-type:none ;
+    display: flex;
+    background-color:rgb(147, 180, 241);
+    font-style: oblique;
+    font-size: larger;
+   
+}
+
+.menu ul{
+    list-style-type: none;
+    display: flex;
+    overflow-x: auto;
+}
+
+.menu li{
+    margin: 0 2%;
+    padding: 20px 2px 10px 6px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+    
+}
+.menu a:hover{
+    background-color:dodgerblue;
+    color:black;
+}
+
+
+li {
+    font-size:larger;
+    text-align: center;
 }
