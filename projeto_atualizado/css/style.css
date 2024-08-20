@@ -6,7 +6,6 @@ h1 {
     font-size:30px;
     text-align: center;
     font-style: oblique;
-    font-weight: bold; 
     margin: 10px;
 
 }
@@ -26,42 +25,84 @@ p {
 
 
 #img_01 img {
-    width: 40%;
+    width: 30%;
     height: 40%;
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
     border: 3px solid;
     flex-direction: column;
-    display:flex;
+    display: flex;
     margin: 50px;
     gap: 20px;
     flex-grow: 1;
 }
 
 #img_02 img{
-    width: 40%;
+    width: 30%;
     height: 40%;
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
     border: 3px solid;
     flex-direction: column;
-    display:flex;
+    display: flex;
     margin: 50px;
     gap: 20px;
     flex-grow: 1;
 }
 
 #img_03 img{
-    width: 40%;
+    width: 30%;
     height: 40%;
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
     border: 3px solid;
     flex-direction: column;
-    display:flex;
+    display: flex;
+    margin: 50px;
+    gap: 20px;
+    flex-grow: 1;
+}
+
+#img_04 img{
+    width: 30%;
+    height: 40%;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border: 3px solid;
+    flex-direction: column;
+    display: flex;
+    margin: 50px;
+    gap: 20px;
+    flex-grow: 1;
+}
+
+#img_05 img{
+    width: 30%;
+    height: 40%;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border: 3px solid;
+    flex-direction: column;
+    display: flex;
+    margin: 50px;
+    gap: 20px;
+    flex-grow: 1;
+}
+
+#img_06 img{
+    width: 30%;
+    height: 40%;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border: 3px solid;
+    flex-direction: column;
+    display: flex;
     margin: 50px;
     gap: 20px;
     flex-grow: 1;
@@ -74,12 +115,11 @@ body{
 .menu{
     list-style-type:none ;
     display: flex;
-    background-color:rgb(147, 180, 241);
-    font-style:initial;
+    background-color:rgb(98, 163, 228);
+    font-style: italic;
     font-size: larger;
     justify-content: left;
 }
-
 
 .menu ul{
     list-style-type: none;
@@ -88,8 +128,8 @@ body{
 }
 
 .menu li{
-    margin: 0 2%;
-    padding: 20px 2px 10px 6px;
+    margin: 0 3%;
+    padding: 20px 2px 11px 7px;
 }
 
 .menu a{
@@ -98,8 +138,9 @@ body{
     
 }
 .menu a:hover{
-    background-color:dodgerblue;
-    color:black;
+    background-color:cornflowerblue;
+    border-radius: 30%;
+    color:#fff;
 }
 
 
@@ -108,27 +149,25 @@ li {
     text-align: center;
 }
 
-.logo {
-    
+.logoimg {
     width: 10%;
-    padding: 50%;
-    height: 200%;
+    padding: 0%;
     padding: auto;
     justify-content: left;
     margin: 20%;
+    /*height: 20px;*/
 }
 
 
 #organizar_menu{
-    font-size: 15px;
     font-style: oblique;
-    font-weight: bold; 
     list-style: none;
-    display: flex;
-    text-decoration: none;
-    gap: 10%;
     border: none;
     justify-content: left;
+    text-decoration: none;
+    gap: 10%;
+    font-size: 20px;
+    display: flex;
 }
 
 /* styles.css */
@@ -147,7 +186,7 @@ footer {
     background-color:rgb(98, 163, 228);
     color: #fff;
     text-align: center;
-    padding: 40px;
+    padding: 0px;
     display: flex;
     justify-content: center;
     color:black;
@@ -162,26 +201,25 @@ footer {
 
 .meus__links {
     display: flex;
-    justify-content: space-between;
-    flex-direction: column;
     align-items: center;
-    gap: 32px;
+    gap: 10px;
+    padding: 0%;
 }
 
 .meus__links__subtitulo {
     font-family: 'krona-one', sans-serif;
     font-size: 24px;
-    font-weight: 400;
     color: #F6F6F6;
 }
 
 .meus__links a {
     justify-content: center;
+    align-items: center;
+    text-align: center;
     display: flex;
-    gap: 16px;
+    gap: 10px;
     width: 378px;
-    font-size: 24px;
-    font-weight: 600;
+    font-size: 21px;
     padding: 16px;
     color: #F6F6F6;
     font-family: 'Montserrat', sans-serif;
@@ -190,12 +228,13 @@ footer {
 }
 
 .meus__links a:hover {
-    background-color: #272727;
+    background-color:cornflowerblue;
+    border-radius: 5px;
 }
 
 .rodape {
-    background-color: #22D4FD;
-    padding: 24px;
+    padding: 20px;
+    display: flex;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
