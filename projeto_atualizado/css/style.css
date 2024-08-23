@@ -75,7 +75,7 @@ p {
     max-width: 100%;
     width: 40%;
     height: auto;
-    padding: 20px ;
+    padding: 10px ;
     margin: 0 auto;
 }
 
@@ -92,8 +92,13 @@ img {
 }
 
 .organizar_menu{
-    padding-top: 10%;
-    margin-top: 20%;
+    padding-top: 50%;
+    margin-top: 30%;
+    text-decoration: none;
+    width:max-content;
+    display: block;
+    margin: 10px;
+    
 }
 
 .menu{
