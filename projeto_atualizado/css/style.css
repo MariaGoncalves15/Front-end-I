@@ -204,3 +204,8 @@ footer {
     opacity: 1;
     transition: 1.0s;
   } 
+
+  #footer_copyright {
+    background-color: dodgerblue;
+    color: #F6F6F6;
+  }
