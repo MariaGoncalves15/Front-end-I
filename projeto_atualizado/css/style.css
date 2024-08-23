@@ -40,6 +40,22 @@ p {
     flex-wrap: wrap;
 }
 
+.container_filho {
+    max-width: 100%;
+    width: 800%;
+    height: auto;
+    padding: 50px ;
+    margin: 0 auto;
+    
+}
+.container_filho img{
+    max-width: 100%;
+    width: 800%;
+    height: auto;
+    padding: 50px ;
+    margin: 0 auto;
+}
+
 img {
     max-width: 100%;
     height: auto;
@@ -89,7 +105,7 @@ li {
     text-align: center;
 }
 
-.logoimg img{
+.logoimg {
     width: 500%;
     height: 500%;
     padding: 0%;
