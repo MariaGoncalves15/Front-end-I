@@ -1,7 +1,4 @@
-.A {
-    background-color:lightblue;
-    
-}
+
 h1 {
     font-size:30px;
     text-align: center;
@@ -34,7 +31,7 @@ p {
 #ancora {
     font-style:italic;
     font-size: 17px;
-    margin: 10px;
+    margin: 20px;
     color: black;
     align-items: center;
     text-align: center;
@@ -177,7 +174,7 @@ main {
 footer {
     background-color:rgb(98, 163, 228);
     color: #fff;
-    padding: 0px;
+    padding: 40px 100px 50px;
     display: flex;
     justify-content: center;
     color:black;
@@ -259,3 +256,8 @@ footer {
     background-color: dodgerblue;
     color: #F6F6F6;
   }
+
+
+.conteudo__botao {
+    background-color:rgb(78, 151, 224);
+}
