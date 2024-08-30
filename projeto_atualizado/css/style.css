@@ -59,7 +59,7 @@ p {
     flex-wrap: wrap;
 }
 
-.container_filho img{
+/* .container_filho {
     max-width: 100%;
     width: 60%;
     height: auto;
@@ -68,6 +68,14 @@ p {
     justify-content: left;
     align-items: left;
     text-align: left;
+} */
+
+#container_filho{
+    margin: 0;
+    /* padding-top: 80px; */
+}
+#container_filho img {
+    /* min-width: 130px; */
 }
 
 
@@ -100,7 +108,7 @@ img {
 
 .menu li{
     margin: 0 3%;
-    padding: 80px 1px 18px 8px;
+    padding: 18px 1px 18px 8px;
 }
 
 .menu a{
@@ -305,13 +313,23 @@ footer {
   left:37%;
   top:29%;
   width:320px;
-  height:270px;
+  height:230px;
+  padding: 30px;
+  margin: 10px;
+  background-color:rgb(84, 133, 182);
+  justify-content:center;
+  align-items: center;
+  text-align: center;
 }
 #area #formulario
 {
   position:absolute;
-  display:block;
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+  text-align: center;
 }
+
 fieldset
 {
   width:300px;
@@ -321,12 +339,14 @@ legend
 {
   font-style:bold;
   font-family: “Segoe UI”,”Arial”,”Times New Roman”;
+  
 }
 
 legend
 {
-  font-style:bold;
-  font-family: "Segoe UI";
+    font-style:bold;
+    font-family: "Segoe UI";
+
 }
 
 
@@ -335,12 +355,18 @@ legend
   position:absolute;
   left:19px;
   margin-right:5px;
+  justify-content:center;
+  align-items: center;
+  text-align: center;
 }
 
 
 #formulario input.campo_nome
 {
   position:absolute;
+  justify-content:center;
+  align-items: center;
+  text-align: center;
   left:95px;
   top:23px;
   width:225px;
@@ -348,6 +374,9 @@ legend
 #formulario input.campo_email
 {
   position:absolute;
+  justify-content:center;
+  align-items: center;
+  text-align: center;
   left:95px;
   margin-top:2px;
   width:225px;
@@ -357,16 +386,16 @@ legend
 #formulario textarea.msg
 {
   position:absolute;
-  background-color:rgb(84, 133, 182);
+  background-color:#fff;
+ 
 }
 
-
-#formulario input.btn_submit
-{
-  border-style:dashed;
-  position:absolute;
-  bottom: 0.5em;
-  right:10px;
-  background-color:cadetblue;
+.btn_submit {
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color:rgb(156, 196, 236);
+    position:absolute;
+    bottom: 0.5em;
+    right:10px;
 }
-
