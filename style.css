@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(105, 43, 163);
+    display: flex;
+
+}
+h1{
+    color:white;
+    font-size:30px;
+    text-align: center;
+    font-style: oblique;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+
+a{
+    color: white;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+
+
+li{
+    margin: 20px;
+    padding: 18px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}

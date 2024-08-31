@@ -1,0 +1,103 @@
+footer {
+    background-color:rgb(98, 163, 228);
+    color: #fff;
+    padding: 40px 50px 50px;
+    display: flex;
+    justify-content: center;
+    color:black;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footerdt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    font-size: 28px;
+  }
+  .footerdt a {
+    color:#fff;
+    text-decoration: none;
+    margin: 10px;
+  }
+  .footerdt:hover a {
+    opacity: 0.3;
+    transition: 1.0s;
+  }
+  .footerdt:hover a:hover {
+    opacity: 1;
+    transition: 1.0s;
+  } 
+
+  #footer_copyright {
+    background-color: dodgerblue;
+    color: #F6F6F6;
+    
+  }
+
+  *{
+    margin: 0;
+    padding: 0;
+}
+
+.meus__links {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    gap: 5px;
+    padding: 5px;
+    width: 40%;
+
+}
+
+.meus__links__subtitulo {
+    font-family: 'krona-one', sans-serif;
+    font-size: 24px;
+    color: #F6F6F6;
+}
+
+.meus__links a {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    gap: 10px;
+    /* width: 200px; */
+    font-size: 21px;
+    padding: 20px;
+    color: #F6F6F6;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    
+}
+
+.meus__links a:hover {
+    background-color:cornflowerblue;
+    border-radius: 5px;
+}
+
+.rodape {
+    padding: 20px;
+    display: flex;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    color: #000;
+    font-weight: 400;
+}
+
+#ancora {
+    font-style:italic;
+    font-size: 17px;
+    margin: 20px;
+    color: black;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    text-decoration: none;
+}
