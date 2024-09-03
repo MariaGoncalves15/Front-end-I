@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(154, 233, 154);
+
+}
+
+a {
+    text-decoration: none;
+}
+
+menu{
+    background-color: seagreen;
+    display: flex;
+    font-style: italic;
+    gap: 5px;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+h1{
+    font-size: 30px;
+    text-align: center;
+    font-style: oblique;
+}
+
+p{
+
+}

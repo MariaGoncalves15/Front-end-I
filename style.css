@@ -1,6 +1,6 @@
 body{
-    background-color: rgb(105, 43, 163);
-    display: flex;
+    background-color: rgb(157, 99, 211);
+    padding-top: 300px;
 
 }
 h1{
@@ -8,7 +8,8 @@ h1{
     font-size:30px;
     text-align: center;
     font-style: oblique;
-    margin: 10px;
+    margin: 15px;
+    padding-left: 50px;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -24,13 +25,13 @@ a{
     text-decoration: none;
 }
 
-
-
 li{
     margin: 20px;
     padding: 18px;
+    display: flex;
     text-align: center;
     align-items: center;
     justify-content: center;
     text-decoration: none;
 }
+

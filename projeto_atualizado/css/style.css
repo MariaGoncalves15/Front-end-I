@@ -1,35 +1,36 @@
-
 h1 {
-    font-size:30px;
+    font-size: 30px;
     text-align: center;
     font-style: oblique;
     margin: 10px;
 
 }
 
-h2{
-    font-size:50px;
+h2 {
+    font-size: 50px;
     text-align: center;
-    font-style:oblique;
+    font-style: oblique;
 }
+
 p {
-    font-style:italic;
-    text-align:center;
+    font-style: italic;
+    text-align: center;
     font-size: 25px;
-    
+
 }
 
 #p_lindo {
-    font-style:italic;
-    text-align:center;
+    font-style: italic;
+    text-align: center;
     align-items: center;
     justify-content: center;
     font-size: 20px;
     padding: 3%;
 
 }
+
 #ancora {
-    font-style:italic;
+    font-style: italic;
     font-size: 17px;
     margin: 20px;
     color: black;
@@ -40,13 +41,13 @@ p {
     text-decoration: none;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
 .container {
-    background-color:lightblue;
+    background-color: lightblue;
     width: 90%;
     max-width: 100%;
     height: auto;
@@ -70,13 +71,16 @@ p {
     text-align: left;
 } */
 
-#container_filho{
+#container_filho {
+    min-width: 90px;
+    width: 90%;
     margin: 0;
     /* padding-top: 80px; */
 }
-#container_filho img {
-    /* min-width: 130px; */
-}
+
+/* #container_filho img {
+    width: 100%;
+} */
 
 
 img {
@@ -84,47 +88,49 @@ img {
     height: auto;
 }
 
-.container > div{
+.container>div {
     flex-grow: 1;
     flex-shrink: 0;
     flex-basis: 150px;
     margin: 0 10px;
 }
 
-.menu{
-    
+.menu {
     display: flex;
-    background-color:rgb(98, 163, 228);
+    background-color: rgb(98, 163, 228);
     font-style: italic;
     font-size: larger;
-    
+    gap: 5px;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
-.menu ul{
+.menu ul {
     list-style-type: none;
     display: flex;
     overflow-x: auto;
 }
 
-.menu li{
-    margin: 0 3%;
-    padding: 18px 1px 18px 8px;
+.menu li {
+    /* margin: 0 3%; */
+    /* padding: 18px 1px 18px 8px; */
 }
 
-.menu a{
+.menu a {
     text-decoration: none;
     color: black;
-    
+
 }
-.menu a:hover{
-    background-color:cornflowerblue;
+
+.menu a:hover {
+    background-color: cornflowerblue;
     border-radius: 30%;
-    color:#fff;
+    color: #fff;
 }
 
 
 li {
-    font-size:larger;
+    font-size: larger;
     text-align: center;
 }
 
@@ -132,7 +138,7 @@ li {
     max-width: 100%;
     width: 37%;
     height: auto;
-    padding: 20px ;
+    padding: 20px;
     margin: 0 auto;
 }
 
@@ -140,15 +146,15 @@ li {
     max-width: 30%;
     width: 30%;
     height: auto;
-    padding: 20px ;
+    padding: 20px;
     margin: 0 auto;
 }
 
-#img_03{
+#img_03 {
     max-width: 30%;
     width: 30%;
     height: auto;
-    padding: 20px ;
+    padding: 20px;
     margin: 0 auto;
 }
 
@@ -156,7 +162,7 @@ li {
     max-width: 25%;
     width: 20%;
     height: auto;
-    padding: 20px ;
+    padding: 20px;
     margin: 0 auto;
 }
 
@@ -175,18 +181,18 @@ main {
 }
 
 footer {
-    background-color:rgb(98, 163, 228);
+    background-color: rgb(98, 163, 228);
     color: #fff;
     padding: 40px 50px 50px;
     display: flex;
     justify-content: center;
-    color:black;
+    color: black;
     text-align: center;
     align-items: center;
     flex-direction: column;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -221,11 +227,11 @@ footer {
     color: #F6F6F6;
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
-    
+
 }
 
 .meus__links a:hover {
-    background-color:cornflowerblue;
+    background-color: cornflowerblue;
     border-radius: 5px;
 }
 
@@ -245,40 +251,43 @@ footer {
     align-items: center;
     margin: 5px;
     font-size: 28px;
-  }
-  .footerdt a {
-    color:#fff;
+}
+
+.footerdt a {
+    color: #fff;
     text-decoration: none;
     margin: 10px;
-  }
-  .footerdt:hover a {
+}
+
+.footerdt:hover a {
     opacity: 0.3;
     transition: 1.0s;
-  }
-  .footerdt:hover a:hover {
+}
+
+.footerdt:hover a:hover {
     opacity: 1;
     transition: 1.0s;
-  } 
+}
 
-  #footer_copyright {
+#footer_copyright {
     background-color: dodgerblue;
     color: #F6F6F6;
-    
-  }
+
+}
 
 
 .conteudo__botao {
-    background-color:rgb(78, 151, 224);
+    background-color: rgb(78, 151, 224);
     border: none;
     color: #fff;
     padding: 15px 22px;
     text-align: center;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     text-decoration: none;
     display: flex;
     font-size: 16px;
-    margin: 20px 20px;
+    margin: 20px auto;
     cursor: pointer;
     border-radius: 50px;
     animation: pulse 2s infinite;
@@ -286,116 +295,133 @@ footer {
 
 
 .conteudo__botao:hover {
-    background-color:cornflowerblue;
+    background-color: cornflowerblue;
     color: white;
     transform: scale(1.2)
 }
 
 @keyframes pulse {
-  0% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.1);
-  }
-  100% {
-    transform: scale(1);
-  }
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
 }
 
 .botao:hover {
     animation: none;
 }
 
-#area
-{
-  position:relative;
-  left:37%;
-  top:29%;
-  width:320px;
-  height:230px;
-  padding: 30px;
-  margin: 10px;
-  background-color:rgb(84, 133, 182);
-  justify-content:center;
-  align-items: center;
-  text-align: center;
-}
-#area #formulario
-{
-  position:absolute;
-  display: flex;
-  justify-content: baseline;
-  align-items: center;
-  text-align: center;
+#area {
+    position: relative;
+    left: 37%;
+    top: 29%;
+    width: 320px;
+    height: 230px;
+    padding: 30px;
+    margin: 10px;
+    background-color: rgb(84, 133, 182);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
-fieldset
-{
-  width:300px;
-  height:250px;
-}
-legend
-{
-  font-style:bold;
-  font-family: “Segoe UI”,”Arial”,”Times New Roman”;
-  
+#area #formulario {
+    position: absolute;
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    text-align: center;
 }
 
-legend
-{
-    font-style:bold;
+fieldset {
+    width: 300px;
+    height: 250px;
+}
+
+legend {
+    font-style: bold;
+    font-family: “Segoe UI”, ”Arial”, ”Times New Roman”;
+
+}
+
+legend {
+    font-style: bold;
     font-family: "Segoe UI";
 
 }
 
 
-#formulario label
-{
-  position:absolute;
-  left:19px;
-  margin-right:5px;
-  justify-content:center;
-  align-items: center;
-  text-align: center;
+#formulario label {
+    position: absolute;
+    left: 19px;
+    margin-right: 5px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 
-#formulario input.campo_nome
-{
-  position:absolute;
-  justify-content:center;
-  align-items: center;
-  text-align: center;
-  left:95px;
-  top:23px;
-  width:225px;
+#formulario input.campo_nome {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    left: 95px;
+    top: 23px;
+    width: 225px;
 }
-#formulario input.campo_email
-{
-  position:absolute;
-  justify-content:center;
-  align-items: center;
-  text-align: center;
-  left:95px;
-  margin-top:2px;
-  width:225px;
+
+#formulario input.campo_email {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    left: 95px;
+    margin-top: 2px;
+    width: 225px;
 }
 
 
-#formulario textarea.msg
-{
-  position:absolute;
-  background-color:#fff;
- 
+#formulario textarea.msg {
+    position: absolute;
+    background-color: #fff;
+
 }
 
 .btn_submit {
     padding: 5px;
     text-decoration: none;
     border-radius: 10px;
-    background-color:rgb(156, 196, 236);
-    position:absolute;
+    background-color: rgb(156, 196, 236);
+    position: absolute;
     bottom: 0.5em;
-    right:10px;
+    right: 10px;
+}
+
+@media (min-width: 650px) {
+    .menu {
+        /* display: flex;
+        background-color:rgb(98, 163, 228);
+        font-style: italic;
+        font-size: larger; */
+        justify-content: space-around;
+        gap: 5px;
+        padding-left: 10%;
+    }
+
+
+
+}
+
+@media (max-width:649px) {
+    .menu li {
+        font-size: 20px;
+    }
 }
