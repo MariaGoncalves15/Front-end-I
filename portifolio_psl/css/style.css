@@ -1,28 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 body{
-    background-color: rgb(154, 233, 154);
-
+    background-color: rgb(67, 132, 110);
+    height: 100vh;
 }
 
-a {
-    text-decoration: none;
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
 }
 
-menu{
-    background-color: seagreen;
+.flex{
     display: flex;
-    font-style: italic;
-    gap: 5px;
+}
+
+
+/*estilo do cabeçalho*/
+header{
+    padding: 40px 4%;
+}
+
+header > .interface{
+    display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
+}
+
+header a{
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+
+header a:hover{
+    color:rgb(3, 65, 44);
+    transform: scale(1.05);
+    transition: .2s;
 
 }
 
-h1{
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+header .btn-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: rgb(14, 137, 61);
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+header .btn-contato button:hover{
+    box-shadow: 0px 0px 8px rgb(40, 158, 85);
+}
+
+/*estilo do topo do site*/
+
+section.topo-do-site{
+    padding: 40px 4px;
+}
+
+section.topo-do-site .flex{
+    align-items: center;
+    justify-content: center;
+}
+
+.topo-do-site .txt-topo-site h1{
     font-size: 30px;
     text-align: center;
     font-style: oblique;
+    line-height: 40px;
 }
 
-p{
-
+.topo-do-site .txt-topo-site p{
+    margin: 40px 0;
 }
+
+.img-topo-site img{
+     justify-content: center;
+}
+
+
+
