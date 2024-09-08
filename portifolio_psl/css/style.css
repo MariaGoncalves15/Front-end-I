@@ -124,7 +124,7 @@ section .btn-projeto button{
     background-color: rgb(34, 177, 89);
     border: 0;
     border-radius: 30px;
-
+    cursor: pointer;
 }
 
 section .btn-projeto button:hover{
@@ -146,9 +146,9 @@ section.portifolio .flex{
 }
 
 .img-port{
-    width: 560px;
+    width: 100%;
     height: 360px;
-    max-width: 100%;
+    max-width: 460px;
     height: auto;
     border-radius: 8px;
     margin-bottom: 15px;
@@ -247,4 +247,77 @@ section.contato .flex{
     transform: scale(1.05);
     box-shadow: 0px 0px 10px rgb(4, 93, 38);
 }
+
+@media screen and (max-width: 940px){
+    /*classes gerais*/
+    .flex{
+        flex-direction: column;
+    }
+
+    .topo-do-site .flex{
+        flex-direction: column-reverse;
+    }
+
+    .sobre .flex .txt-sobre{
+        flex-direction: column-reverse;
+
+    }
+
+    .sobre .flex .img-sobre{
+        flex-direction: column-reverse;
+    }
+
+    /*cabeçalho*/
+    .menu-dekstop, .btn-contato{
+        display: none;
+    }
+
+    /*topo do site*/
+    section.topo-do-site .flex{
+        gap: 40px;
+    }
+
+    section.topo-do-site{
+        padding: 20px 8%;
+    }
+
+    .topo-do-site h1{
+        font-size: 20px;
+    }
+
+    /*sobre*/
+    section.sobre {
+        padding: 80px 8%;
+    }
+
+    .sobre .txt-sobre h2{
+        font-size: 34px;
+        line-height: 35px;
+        text-align: center;
+    }
+
+    .btn-projeto{
+        text-align: center;
+    }
+
+    .img-sobre img{
+        width: 100%;
+    }
+
+    /*Projetos portifolio*/
+    section.portifolio{
+        padding: 80px 8%;
+    }
+
+    img.port{
+    width: 100%;
+    max-width: 360px;
+    margin: 0 auto;
+    }
+    /*rodapé footer*/
+    footer.flex {
+        flex-direction: column;
+        gap: 30px;
+    }
+}   
 
