@@ -163,7 +163,7 @@ section.portifolio .interface .flex .img-port {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin: 15px;
     padding: 2%;
-    width: 430px;
+    width: 330px;
     text-align: center;
     transition: transform 0.3s, box-shadow 0.3s;
     display: flex;
