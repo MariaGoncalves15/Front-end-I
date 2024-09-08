@@ -1,6 +1,10 @@
 body{
     background-color: rgb(157, 99, 211);
     padding-top: 230px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
 
 }
 h1{
