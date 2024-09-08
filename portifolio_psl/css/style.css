@@ -264,7 +264,7 @@ section.contato .flex{
     }
 
     .sobre .flex .img-sobre{
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
 
     /*cabeçalho*/
