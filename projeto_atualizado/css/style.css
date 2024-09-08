@@ -138,14 +138,6 @@ li {
     margin: 0 auto;
 }
 
-#img_02 {
-    max-width: 30%;
-    width: 30%;
-    height: auto;
-    padding: 20px;
-    margin: 0 auto;
-}
-
 #img_03 {
     max-width: 30%;
     width: 30%;
@@ -314,83 +306,6 @@ footer {
     animation: none;
 }
 
-#area {
-    position: relative;
-    left: 37%;
-    top: 29%;
-    width: 320px;
-    height: 230px;
-    padding: 30px;
-    margin: 10px;
-    background-color: rgb(84, 133, 182);
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-#area #formulario {
-    position: absolute;
-    display: flex;
-    justify-content: baseline;
-    align-items: center;
-    text-align: center;
-}
-
-fieldset {
-    width: 300px;
-    height: 250px;
-}
-
-legend {
-    font-style: bold;
-    font-family: “Segoe UI”, ”Arial”, ”Times New Roman”;
-
-}
-
-legend {
-    font-style: bold;
-    font-family: "Segoe UI";
-
-}
-
-
-#formulario label {
-    position: absolute;
-    left: 19px;
-    margin-right: 5px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-
-#formulario input.campo_nome {
-    position: absolute;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    left: 95px;
-    top: 23px;
-    width: 225px;
-}
-
-#formulario input.campo_email {
-    position: absolute;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    left: 95px;
-    margin-top: 2px;
-    width: 225px;
-}
-
-
-#formulario textarea.msg {
-    position: absolute;
-    background-color: #fff;
-
-}
-
 .btn_submit {
     padding: 5px;
     text-decoration: none;
@@ -412,8 +327,6 @@ legend {
         padding-left: 10%;
     }
 
-
-
 }
 
 @media (max-width:649px) {
@@ -421,3 +334,41 @@ legend {
         font-size: 20px;
     }
 }
+
+.contato form {
+    max-width: 350px;
+    margin: 50px 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contato label {
+    margin-top: 10px;
+    color: var(--cor-primaria);
+}
+
+.contato input, .contato textarea {
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid var(--cor-secundaria);
+    border-radius: 4px;
+}
+
+.contato button {
+    margin: 20px;
+    padding: 10px;
+    background-color: rgb(98, 163, 228);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+
+.contato button:hover {
+    background-color: rgb(33, 114, 180);
+}
+
+
+

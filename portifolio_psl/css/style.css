@@ -19,68 +19,6 @@ body{
     display: flex;
 }
 
-
-/*estilo do cabeçalho*/
-header{
-    padding: 40px 4%;
-}
-
-header > .interface{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-header a{
-    color: black;
-    text-decoration: none;
-    display: block;
-    font-weight: 500;
-}
-
-header a:hover{
-    color:rgb(3, 65, 44);
-    transform: scale(1.05);
-    transition: .2s;
-}
-
-header nav ul{
-    list-style-type: none;
-}
-
-header nav ul li{
-    display: inline-block;
-    padding: 0 40px;
-}
-
-header .menu-desktop {
-    background-color: rgb(13, 116, 81);
-    display: flex;
-    font-style: italic;
-    font-size: larger;
-    gap: 5px;
-    align-items: center;
-    justify-content: space-evenly;
-    padding: 30px;
-    border-radius: 50px;
-}
-
-header .btn-contato button{
-    padding: 10px 40px;
-    font-size: 18px;
-    font-weight: 700;
-    background-color: rgb(34, 177, 89);
-    border: 0;
-    border-radius: 30px;
-    cursor: pointer;
-}
-
-
-header .btn-contato button:hover{
-    box-shadow: 0px 0px 10px rgb(10, 121, 53);
-    
-}
-
 /*estilo do topo do site*/
 
 section.topo-do-site{
@@ -105,8 +43,7 @@ section.topo-do-site .flex{
 }
 
 .img-topo-site {
-     justify-content: center;
-     text-align: center;
+    text-align: center;
      border: 10px;
 }
 
@@ -137,11 +74,174 @@ section.sobre .flex{
 }
 
 .sobre .txt-sobre h2 span{
-    
      color:rgb(16, 58, 44);
 }
 
 .sobre .txt-sobre p{
     margin: 20px 0;
-    text-align: justify;
+    text-align: center;
+
 }
+
+/*estilo da tabela*/
+
+.sobre table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: rgb(13, 116, 81);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 10px 10px rgba(22, 5, 5, 0.1);
+}
+
+.sobre th, .sobre td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid var(--cor-primaria);
+}
+
+.sobre th {
+    background-color: var(--cor-secundaria);
+    color: #fff;
+    font-weight: bold;
+}
+
+.sobre td {
+    background-color: #ffffff;
+    color: var(--cor-texto);
+}
+
+.sobre tr:nth-child(even) td {
+    background-color: var(--cor-fundo);
+}
+
+section .btn-projeto button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: rgb(34, 177, 89);
+    border: 0;
+    border-radius: 30px;
+
+}
+
+section .btn-projeto button:hover{
+    box-shadow: 0px 0px 10px rgb(10, 121, 53);
+}
+
+/*estilo do projeto*/
+
+section.portifolio{
+    padding: 70px 4%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+section.portifolio .flex{
+    justify-content: space-around; 
+}
+
+.img-port{
+    width: 560px;
+    height: 360px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    flex-shrink: 0;
+    background-color: rgb(13, 116, 81);
+}
+
+
+section.portifolio .interface .flex .img-port {
+    border: 1px solid var(--cor-contraste);
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    padding: 2%;
+    width: 430px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section.portifolio .interface .flex .img-port:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.portifolio h3 {
+    color: var(--cor-primaria);
+    margin-top: 10px;
+}
+
+.portifolio p {
+    color: var(--cor-secundaria);
+    margin-top: auto;
+}
+
+
+/*estilo de contato*/
+
+section.contato{
+    padding: 40px 4%;
+
+}
+
+section.contato .flex{
+    align-items: center;
+    gap: 60px; 
+}
+
+.contato .txt-contato{
+    color: black;
+}
+
+.contato .txt-contato h1{
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+
+.contato .txt-contato h1 span{
+    color:rgb(16, 58, 44);
+}
+
+.contato .txt-contato p{
+    padding: 25px;
+}
+
+.btn-social{
+    font-style:italic;
+    background-color:rgb(0, 109, 73);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    font-size: 31px;
+    padding: 30px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    border-radius: 50px;
+}
+
+.btn-social a{
+    color: black;
+    font-weight: 100px;
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: rgb(34, 177, 89);
+    border: 0;
+    border-radius: 40px;
+} 
+
+.btn-social a:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 10px rgb(4, 93, 38);
+}
+
