@@ -139,7 +139,9 @@ section.portifolio{
 }
 
 section.portifolio .flex{
-    justify-content: space-around; 
+    justify-content: space-between; 
+    display: inline-block;
+    padding: 40px 0;
 }
 
 .img-port{
