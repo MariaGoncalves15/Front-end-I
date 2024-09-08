@@ -80,6 +80,7 @@ section.sobre .flex{
 .sobre .txt-sobre p{
     margin: 20px 0;
     text-align: center;
+    line-height: 40px;
 
 }
 
